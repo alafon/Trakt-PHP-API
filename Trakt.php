@@ -53,7 +53,7 @@ class Trakt
     /**
      *
      * @param string $method
-     * @return Allocine
+     * @return Trakt
      */
     public function method( $method )
     {
@@ -101,7 +101,7 @@ class Trakt
      *
      * @param string $queryParameter
      * @param mixed $value
-     * @return Allocine
+     * @return Trakt
      */
     public function set( $queryParameter, $value )
     {
